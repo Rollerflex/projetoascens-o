@@ -1,0 +1,197 @@
+.container {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+
+  padding: 40px;
+
+  border-radius: 18px;
+
+  background: rgba(10, 10, 25, 0.8);
+
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  box-shadow:
+    0 0 20px rgba(8,250,218,.15),
+    0 0 40px rgba(241,4,143,.12);
+}
+
+.title {
+  text-align: center;
+
+  color: var(--secondary);
+
+  margin-bottom: 10px;
+
+  font-size: 2.2rem;
+}
+
+.subtitle {
+  text-align: center;
+
+  color: #8dd9cf;
+
+  margin-bottom: 35px;
+}
+
+.form {
+  display: grid;
+  gap: 20px;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+}
+
+.field label {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.field input {
+  padding: 14px;
+
+  border-radius: 10px;
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  background: rgba(255,255,255,.05);
+
+  color: white;
+
+  outline: none;
+
+  transition: .3s;
+}
+
+.field input:focus {
+
+  border-color: var(--secondary-text);
+
+  box-shadow:
+    0 0 10px rgba(238,135,241,.3);
+
+}
+
+.button {
+  margin-top: 10px;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    var(--secondary-text)
+  );
+
+  color: white;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: .3s;
+}
+
+.button:hover {
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 0 18px rgba(241,4,143,.4);
+
+}
+
+.error {
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  background: rgba(255,0,0,.15);
+
+  color: #ff9b9b;
+
+  text-align: center;
+}
+
+.nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.back:hover {
+  color: var(--secondary-text);
+  text-shadow: 0 0 10px rgba(238,135,241,.5);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: -5px;
+  margin-bottom: 10px;
+
+  gap: 10px;
+
+  flex-wrap: wrap;
+}
+
+.link {
+  color: var(--secondary);
+
+  text-decoration: none;
+
+  font-size: 0.9rem;
+
+  transition: .3s;
+}
+
+.link:hover {
+  color: var(--secondary-text);
+
+  text-shadow:
+    0 0 8px rgba(238,135,241,.5);
+}
+
+.linkSecondary {
+
+  color: #8dd9cf;
+
+  text-decoration: none;
+
+  font-size: 0.9rem;
+
+  transition: .3s;
+}
+
+.linkSecondary:hover {
+
+  color: white;
+
+}
