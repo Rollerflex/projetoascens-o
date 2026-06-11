@@ -44,8 +44,6 @@ console.log(data.user)
 
 nav('/')
 
-      nav(u.primeiroAcesso ? '/first-access' : '/')
-
     } catch (err) {
 
       setErro(err.message)
