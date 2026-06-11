@@ -20,22 +20,12 @@ export default function ForgotPassword() {
   }
 
   setMensagem(
-    'E-mail de recuperação enviado.'
+    'Um portal de recuperação foi enviado para seu e-mail astral'
   )
 }
 
   const [email, setEmail] = useState('')
   const [mensagem, setMensagem] = useState('')
-
-  function onSubmit(e) {
-
-    e.preventDefault()
-
-    // simulação de envio
-    setMensagem(
-      'Um portal de recuperação foi enviado para seu e-mail astral.'
-    )
-  }
 
   return (
     <main className={styles.container}>
