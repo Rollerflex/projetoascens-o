@@ -14,11 +14,22 @@
 
 h1 {
   color: var(--text);
-  text-shadow: 0 0 10px rgba(241, 4, 143, 0.5);
+  text-shadow: 0 0 10px rgba(0, 119, 255, 0.671);
   letter-spacing: 1px;
+  text-align: center;
+  margin: 30px 20px 10px;
+  padding: 0 15px;
 }
 
 .highlight {
+  color: var(--secondary);
+  text-align: center;
+  margin: 0 20px 25px;
+  padding: 0 15px;
+  
+}
+
+.highlight1 {
   color: var(--secondary);
 }
 

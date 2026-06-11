@@ -187,6 +187,7 @@ try {
               <option value="">Selecione</option>
               <option value="amigos">Indicação de amigos</option>
               <option value="internet">Internet</option>
+              <option value="entidade">Revista Bons Fluidos</option>
               <option value="sonho">Sonho profético</option>
               <option value="entidade">Entidade astral</option>
               <option value="outro">Outro</option>

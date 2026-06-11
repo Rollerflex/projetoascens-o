@@ -64,9 +64,13 @@ const Packages = () => {
 
             <h2>{pkg.destination}</h2>
 
-            <p>
-              <strong className="highlight">Acomodação:</strong>
-              {` ${pkg.accommodation}`}
+            <p className="accommodation">
+              <span className="highlight1">
+                Acomodação:
+              </span>
+              <span>
+                {pkg.accommodation}
+              </span>
             </p>
 
               {/* BOTÃO TOGGLE */}

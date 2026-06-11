@@ -39,7 +39,7 @@ if (error) {
 
 console.log(data.user)
 
-nav('/')
+nav('/ClientArea')
 
     } catch (err) {
 
@@ -61,7 +61,7 @@ nav('/')
       <div className={styles.card}>
 
         <h1 className={styles.title}>
-          Portal Astral
+          Portal do Viajante
         </h1>
 
         <p className={styles.subtitle}>

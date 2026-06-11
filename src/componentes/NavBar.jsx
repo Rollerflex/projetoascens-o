@@ -39,7 +39,7 @@ export default function NavBar() {
         </NavLink>
 
         <NavLink to="/login" onClick={closeMenu}>
-          Área do Cliente
+          Portal do Viajante
         </NavLink>
 
       </div>

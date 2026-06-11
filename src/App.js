@@ -12,7 +12,8 @@ function App() {
   const hiddenRoutes = [
     '/login',
     '/forgot-password',
-    '/register'
+    '/register',
+    '/ClientArea'
   ]
 
   const hideNavbar =
@@ -53,7 +54,7 @@ function App() {
           </p>
 
           <p>
-            &copy; 2023 Projeto Ascensão.
+            &copy; 2026 Projeto Ascensão.
           </p>
 
           <p>

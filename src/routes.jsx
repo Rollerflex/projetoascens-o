@@ -11,6 +11,7 @@ import Team from './pages/Team'
 import Faculties from './pages/Faculties'
 import ForgotPassword from './pages/ForgotPassword'
 import Register from './pages/Register'
+import ClientArea from './pages/ClientArea'
 
 export const router = createHashRouter([
   {
@@ -61,6 +62,11 @@ export const router = createHashRouter([
       {
         path: 'register',
         element: <Register />
+      },
+
+      {
+        path: 'ClientArea',
+        element: <ClientArea />
       }
     ]
   }
