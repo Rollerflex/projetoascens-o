@@ -3,8 +3,6 @@ import { useNavigate, Link } from 'react-router-dom'
 import styles from './Login.module.css'
 import { supabase } from '../services/supabase'
 
-import { useAuth } from '../contexts/AuthContext'
-
 export default function Login() {
 
   const [login, setLogin] = useState('')
@@ -12,8 +10,7 @@ export default function Login() {
   const [erro, setErro] = useState('')
 
   const nav = useNavigate()
-
-  const { login: doLogin } = useAuth()
+  
 
   async function onSubmit(e) {
 
